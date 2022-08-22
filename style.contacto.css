@@ -1,0 +1,117 @@
+
+header{
+    background: darkgray;
+}
+
+#logoN{
+    display: inline;
+    width: 150px;
+    padding-left: 200px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    position: absolute;
+    top: 90px;
+    right: 40px;
+}
+
+nav a:hover{
+    color: brown;
+    font-style: italic;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    margin: 40px 0;
+
+}
+
+form label, form legend{
+    display: block;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.padron{
+    resize: none;
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 5px 15px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: rgb(225, 124, 0);
+    transform: scale(1.04);
+}
+
+table{
+    margin: 40px 100px;
+}
+thead{
+    background: #555555;
+    color: beige;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+
+
+footer{
+    background: rgb(40, 40, 40);
+    text-align: center;
+    padding: 40px;
+}
+
+#piepagina{
+    width: 200px;
+    display: block;
+    margin: 0px auto;
+}
+#logoB{
+    width: 100px;
+    display: block;
+    margin: 0px auto;
+}
+
+#copy{
+    color: azure;
+    margin-bottom: 0px;
+}
